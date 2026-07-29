@@ -1,11 +1,6 @@
-Built and successfully tested a Cisco FTD/FMC 7.7.0 lab covering routing, NAT, security policies, and High Availability failover Test.The goal was to simulate a real enterprise edge firewall deployment in pnet lab.
-What i configured:
-Static/dynamic routing between internal and external networks
-Security policies to allow/block traffic flows
-Explored static, dynamin and auto nat for address translation
-Active/Standby High Availability with stateful failover testing
-What i validated
-Connectivity between inside and outside networks
-NAT translation working correctly
-Policy enforcement verified via traffic tests
-HA failover switch tested successfully
+Cisco Secure Firewall 7.7 Transparent Firewall Lab
+Objective
+
+Build and validate a Cisco Secure Firewall Threat Defense (FTD) operating in Transparent Mode using Cisco Secure Firewall Management Center (FMC) 7.7.
+
+The objective was to understand Layer 2 firewall forwarding, Bridge Virtual Interfaces (BVI), Prefilter Policy processing, Access Control Policy evaluation and Packet Tracer troubleshooting.
