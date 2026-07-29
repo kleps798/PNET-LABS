@@ -1,0 +1,25 @@
+
+
+Objective
+
+Build and validate a Cisco Secure Firewall Threat Defense (FTD) operating in Transparent Mode using Cisco Secure Firewall Management Center (FMC) 7.7.
+
+The objective was to understand Layer 2 firewall forwarding, Bridge Virtual Interfaces (BVI), Prefilter Policy processing, Access Control Policy evaluation and Packet Tracer troubleshooting.
+
+Lab Topology
+Windows PC
+192.168.10.10
+      │
+      │
+Gi0/0 (Inside)
+      │
+      │
+FTD Transparent Firewall
+Bridge Group 1
+BVI 1 = 192.168.10.254/24
+      │
+      │
+Gi0/1 (Outside)
+      │
+Windows Server
+192.168.10.20
